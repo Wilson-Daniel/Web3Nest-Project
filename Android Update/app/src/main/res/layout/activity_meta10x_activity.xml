@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.Meta10XActivity">
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_nav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        app:itemIconTint="@color/black"
+        app:itemRippleColor="#0D0C0C"
+        app:itemTextColor="#0E0D0D"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_nav_menue" />
+    <TextView
+        android:id="@+id/tenXtimmm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:text="00:00"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textSize="56sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/meta10_textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="Make a choice!!"
+        android:textSize="26sp"
+        app:layout_constraintEnd_toEndOf="@+id/tenXtimmm"
+        app:layout_constraintStart_toStartOf="@+id/tenXtimmm"
+        app:layout_constraintTop_toBottomOf="@+id/tenXtimmm" />
+
+    <TextView
+        android:id="@+id/meta10X_IV_fruit_Lily"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+
+        android:layout_marginTop="12dp"
+        android:background="@drawable/login_number_bg"
+        android:gravity="center"
+        android:text="Lily"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="@+id/meta10X_IV_fruit_MArigold"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/meta10X_IV_fruit_MArigold"
+        app:layout_constraintTop_toBottomOf="@+id/meta10X_IV_fruit_MArigold" />
+
+    <TextView
+        android:id="@+id/meta10X_IV_fruit2_Orange"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+
+        android:layout_marginTop="12dp"
+        android:background="@drawable/login_number_bg"
+        android:gravity="center"
+        android:text="Orange"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="@+id/meta10X_IV_fruit"
+        app:layout_constraintStart_toStartOf="@+id/meta10X_IV_fruit"
+        app:layout_constraintTop_toBottomOf="@+id/meta10X_IV_fruit" />
+
+    <TextView
+        android:id="@+id/meta10X_IV_fruit_Sunflower"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+
+        android:layout_marginTop="16dp"
+        android:background="@drawable/login_number_bg"
+        android:gravity="center"
+        android:text="Sunflower"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="@+id/meta10X_IV_fruit9_Papaya"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/meta10X_IV_fruit9_Papaya"
+        app:layout_constraintTop_toBottomOf="@+id/meta10X_IV_fruit9_Papaya" />
+
+    <TextView
+        android:id="@+id/meta10X_IV_fruit_Rose"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+
+        android:layout_marginTop="12dp"
+        android:background="@drawable/login_number_bg"
+        android:gravity="center"
+        android:text="Rose"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="@+id/meta10X_IV_fruit_Sunflower"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/meta10X_IV_fruit_Sunflower"
+        app:layout_constraintTop_toBottomOf="@+id/meta10X_IV_fruit_Sunflower" />
+
+    <TextView
+        android:id="@+id/meta10X_IV_fruit_Jasmin"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+
+        android:layout_marginTop="12dp"
+        android:background="@drawable/login_number_bg"
+        android:gravity="center"
+        android:text="Jasmin"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="@+id/meta10X_IV_fruit_Rose"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/meta10X_IV_fruit_Rose"
+        app:layout_constraintTop_toBottomOf="@+id/meta10X_IV_fruit_Rose" />
+
+    <TextView
+        android:id="@+id/meta10X_IV_fruit9_Papaya"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+
+        android:layout_marginTop="12dp"
+        android:background="@drawable/login_number_bg"
+        android:gravity="center"
+        android:text="Papaya"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="@+id/meta10X_IV_fruit_Guava"
+        app:layout_constraintStart_toStartOf="@+id/meta10X_IV_fruit_Guava"
+        app:layout_constraintTop_toBottomOf="@+id/meta10X_IV_fruit_Guava" />
+
+    <TextView
+        android:id="@+id/meta10X_IV_fruit_Guava"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/login_number_bg"
+        android:gravity="center"
+        android:text="Guava"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/meta10X_IV_fruit"
+        app:layout_constraintTop_toBottomOf="@+id/meta10_textView13" />
+
+    <TextView
+        android:id="@+id/meta10X_IV_fruit3_Sharifa"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+
+        android:layout_marginTop="16dp"
+        android:background="@drawable/login_number_bg"
+        android:gravity="center"
+        android:text="Sharifa"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="@+id/meta10X_IV_fruit2_Orange"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/meta10X_IV_fruit2_Orange"
+        app:layout_constraintTop_toBottomOf="@+id/meta10X_IV_fruit2_Orange" />
+
+    <TextView
+        android:id="@+id/meta10X_IV_fruit"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+
+        android:layout_marginTop="36dp"
+        android:background="@drawable/login_number_bg"
+        android:gravity="center"
+        android:text="Amla"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.074"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/meta10_textView13" />
+
+    <TextView
+        android:id="@+id/meta10X_IV_fruit_MArigold"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+
+        android:layout_marginTop="12dp"
+        android:background="@drawable/login_number_bg"
+        android:gravity="center"
+        android:text="Marigold"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="@+id/meta10X_IV_fruit3_Sharifa"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/meta10X_IV_fruit3_Sharifa"
+        app:layout_constraintTop_toBottomOf="@+id/meta10X_IV_fruit3_Sharifa" />
+
+    <TextView
+        android:id="@+id/InvisibleText_meta10x"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="TextView"
+        android:textSize="26sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/meta10X_IV_fruit_Lily"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/meta10X_IV_fruit" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

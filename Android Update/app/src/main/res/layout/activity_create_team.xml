@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_play_bag"
+    tools:context=".Activities.CreateTeamActivity">
+
+    <TextView
+        android:id="@+id/createTeam_Login_TV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="60dp"
+        android:text="Create a Team"
+        android:textColor="#056839"
+        android:textSize="28sp"
+        app:fontFamily="@font/montserrat_medium"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.082"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/createTeam_bottom_nav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        app:itemIconTint="#056839"
+        app:itemRippleColor="#42647E"
+        app:itemTextColor="#056839"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_nav_menue">
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+    <EditText
+        android:id="@+id/createTeam_TotalTeamMem_ET"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/login_number_bg"
+        android:ems="10"
+        android:fontFamily="@font/montserrat"
+        android:hint="Total Team Members"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/createTeam_TeamNAme_ET" />
+
+    <EditText
+        android:id="@+id/createTeam_TeamNAme_ET"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/login_number_bg"
+        android:ems="10"
+        android:fontFamily="@font/montserrat"
+        android:hint="Team Name"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/createTeam_Login_TV" />
+
+    <TextView
+        android:id="@+id/createTeam_RegisterTeam_TV"
+        android:layout_width="191dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="40dp"
+        android:background="#056839"
+        android:fontFamily="@font/montserrat"
+        android:gravity="center"
+        android:text="Register Team"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/createTeam_TotalTeamMem_ET"
+        app:layout_constraintStart_toStartOf="@+id/createTeam_TotalTeamMem_ET"
+        app:layout_constraintTop_toBottomOf="@+id/createTeam_TotalTeamMem_ET" />
+
+    <TextView
+        android:id="@+id/createTeam_Popup_TV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat"
+        android:text="TextView"
+        android:textColor="#056839"
+        android:textSize="30sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="@+id/createTeam_TotalTeamMem_ET"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="@+id/createTeam_TotalTeamMem_ET"
+        app:layout_constraintTop_toBottomOf="@+id/createTeam_TeamNAme_ET" />
+
+    <TextView
+        android:id="@+id/createTeam_PopupInvite_TV2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat"
+        android:text="TextView"
+        android:textColor="#056839"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="@+id/createTeam_TotalTeamMem_ET"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="@+id/createTeam_TotalTeamMem_ET"
+        app:layout_constraintTop_toBottomOf="@+id/createTeam_Popup_TV" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="316dp"
+        android:layout_height="33dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="30dp"
+        android:fontFamily="@font/montserrat"
+        android:text="Crafting Your Winning Squard - Join Forces and Play On"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/createTeam_Login_TV"
+        app:layout_constraintTop_toBottomOf="@+id/createTeam_Login_TV" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,1681 @@
+{
+  "name": "component_10",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "NvReZ0BOQTPhcKXT7Z2IJs",
+    "node": "130:979",
+    "version": "3765091620",
+    "component-id": "cf4c5a33a828a1f56f7319653c873718bb3d0ad4"
+  },
+  "default": "Component 10",
+  "documentation": "fff",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "image",
+        "id": "pexels-nitin-khajotia-1516680 1"
+      },
+      {
+        "type": "group",
+        "id": "Android Status Bar - Light"
+      },
+      {
+        "type": "group",
+        "id": "Frame 58"
+      },
+      {
+        "type": "group",
+        "id": "Frame 60"
+      },
+      {
+        "type": "vector",
+        "id": "BG"
+      },
+      {
+        "type": "group",
+        "id": "Time"
+      },
+      {
+        "type": "group",
+        "id": "Group 30"
+      },
+      {
+        "type": "vector",
+        "id": "BG1"
+      },
+      {
+        "type": "vector",
+        "id": "5:13 PM"
+      },
+      {
+        "type": "group",
+        "id": "Wifi"
+      },
+      {
+        "type": "group",
+        "id": "CellSignalHigh"
+      },
+      {
+        "type": "group",
+        "id": "Battery"
+      },
+      {
+        "type": "group",
+        "id": "Percentage"
+      },
+      {
+        "type": "vector",
+        "id": "BG2"
+      },
+      {
+        "type": "vector",
+        "id": "Wifi1"
+      },
+      {
+        "type": "vector",
+        "id": "BG3"
+      },
+      {
+        "type": "vector",
+        "id": "CellSignalHigh1"
+      },
+      {
+        "type": "vector",
+        "id": "BG4"
+      },
+      {
+        "type": "vector",
+        "id": "Battery1"
+      },
+      {
+        "type": "vector",
+        "id": "BG5"
+      },
+      {
+        "type": "vector",
+        "id": "70%"
+      },
+      {
+        "type": "group",
+        "id": "Frame 57"
+      },
+      {
+        "type": "group",
+        "id": "Frame 50"
+      },
+      {
+        "type": "group",
+        "id": "Frame 53"
+      },
+      {
+        "type": "group",
+        "id": "Frame 56"
+      },
+      {
+        "type": "group",
+        "id": "Frame 46"
+      },
+      {
+        "type": "group",
+        "id": "Frame 52"
+      },
+      {
+        "type": "group",
+        "id": "Mask group"
+      },
+      {
+        "type": "group",
+        "id": "Frame 45"
+      },
+      {
+        "type": "vector",
+        "id": "Ellipse 1"
+      },
+      {
+        "type": "image",
+        "id": "pexels-photo-1308578 1"
+      },
+      {
+        "type": "text",
+        "id": "Adeniyi John"
+      },
+      {
+        "type": "text",
+        "id": "5 days ago"
+      },
+      {
+        "type": "group",
+        "id": "Frame 51"
+      },
+      {
+        "type": "group",
+        "id": "ant-design:more-outlined"
+      },
+      {
+        "type": "group",
+        "id": "cil:user-follow"
+      },
+      {
+        "type": "text",
+        "id": "Follow"
+      },
+      {
+        "type": "vector",
+        "id": "Vector"
+      },
+      {
+        "type": "vector",
+        "id": "Vector1"
+      },
+      {
+        "type": "text",
+        "id": "Lorem ipsum dolor sit amet consectetur. Proin sagittis posuere turpis vulputate ut..."
+      },
+      {
+        "type": "group",
+        "id": "Frame 55"
+      },
+      {
+        "type": "group",
+        "id": "Group 40"
+      },
+      {
+        "type": "text",
+        "id": "Shared by Sayan, Mayank and 63 others"
+      },
+      {
+        "type": "group",
+        "id": "Mask group1"
+      },
+      {
+        "type": "group",
+        "id": "Mask group2"
+      },
+      {
+        "type": "vector",
+        "id": "Ellipse 3"
+      },
+      {
+        "type": "image",
+        "id": "pexels-photo-2085739 1"
+      },
+      {
+        "type": "vector",
+        "id": "Ellipse 2"
+      },
+      {
+        "type": "image",
+        "id": "pexels-photo-206329 1"
+      },
+      {
+        "type": "group",
+        "id": "Frame 49"
+      },
+      {
+        "type": "group",
+        "id": "Frame 48"
+      },
+      {
+        "type": "group",
+        "id": "Frame 44"
+      },
+      {
+        "type": "group",
+        "id": "Frame 43"
+      },
+      {
+        "type": "group",
+        "id": "carbon:favorite"
+      },
+      {
+        "type": "text",
+        "id": "34.5k"
+      },
+      {
+        "type": "vector",
+        "id": "Vector2"
+      },
+      {
+        "type": "group",
+        "id": "iconamoon:comment-thin"
+      },
+      {
+        "type": "text",
+        "id": "345"
+      },
+      {
+        "type": "vector",
+        "id": "Vector3"
+      },
+      {
+        "type": "group",
+        "id": "mdi-light:share"
+      },
+      {
+        "type": "group",
+        "id": "iconamoon:comment-thin1"
+      },
+      {
+        "type": "group",
+        "id": "carbon:favorite1"
+      },
+      {
+        "type": "vector",
+        "id": "Vector4"
+      },
+      {
+        "type": "vector",
+        "id": "Vector5"
+      },
+      {
+        "type": "vector",
+        "id": "Vector6"
+      },
+      {
+        "type": "group",
+        "id": "Frame 59"
+      },
+      {
+        "type": "group",
+        "id": "ph:instagram-logo"
+      },
+      {
+        "type": "vector",
+        "id": "Arrow 1"
+      },
+      {
+        "type": "text",
+        "id": "Reels"
+      },
+      {
+        "type": "vector",
+        "id": "Vector7"
+      }
+    ],
+    "modes": {
+      "Component 10": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "pexels-nitin-khajotia-1516680 1",
+              "Android Status Bar - Light",
+              "Frame 58",
+              "Frame 60"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "pexels-nitin-khajotia-1516680 1",
+            "margin": {
+              "top": "42.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "image-content": "pexels_nitin_khajotia_1516680_1.jpeg",
+            "scale": "cover"
+          },
+          {
+            "id": "Android Status Bar - Light",
+            "margin": {
+              "bottom": "806.0"
+            },
+            "is-structured": "false",
+            "children": [
+              "BG",
+              "Time",
+              "Group 30"
+            ]
+          },
+          {
+            "id": "Frame 58",
+            "margin": {
+              "left": "15.0",
+              "top": "626.0",
+              "right": "15.0",
+              "bottom": "32.0"
+            },
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Frame 57",
+              "Frame 50"
+            ],
+            "item-spacing": "23.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "Frame 60",
+            "margin": {
+              "left": "26.0",
+              "top": "64.0",
+              "right": "15.0",
+              "bottom": "744.0"
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "Frame 59",
+              "ph:instagram-logo"
+            ],
+            "item-spacing": "228.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "BG",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "414.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "42.0"
+              }
+            },
+            "vector-content": "bg.svg"
+          },
+          {
+            "id": "Time",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "16.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "12.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "58.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "18.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "BG1",
+              "5:13 PM"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Group 30",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "317.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "12.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "81.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "18.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Wifi",
+              "CellSignalHigh",
+              "Battery",
+              "Percentage"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "BG1",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "58.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "18.0"
+              }
+            }
+          },
+          {
+            "id": "5:13 PM",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "4.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "4.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "50.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "10.0"
+              }
+            },
+            "vector-content": "5_13_pm.svg"
+          },
+          {
+            "id": "Wifi",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "18.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "18.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "BG2",
+              "Wifi1"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "CellSignalHigh",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "16.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "18.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "18.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "BG3",
+              "CellSignalHigh1"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Battery",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "34.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "18.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "18.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "BG4",
+              "Battery1"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Percentage",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "48.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "33.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "18.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "BG5",
+              "70%"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "BG2",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "18.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "18.0"
+              }
+            }
+          },
+          {
+            "id": "Wifi1",
+            "margin": {
+              "left": "1.0",
+              "top": "2.0",
+              "right": "1.0",
+              "bottom": "2.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "wifi.svg"
+          },
+          {
+            "id": "BG3",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "18.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "18.0"
+              }
+            }
+          },
+          {
+            "id": "CellSignalHigh1",
+            "margin": "2.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "cell_signal_high.svg"
+          },
+          {
+            "id": "BG4",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "18.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "18.0"
+              }
+            }
+          },
+          {
+            "id": "Battery1",
+            "margin": {
+              "left": "5.0",
+              "top": "2.0",
+              "right": "5.0",
+              "bottom": "2.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "battery.svg"
+          },
+          {
+            "id": "BG5",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "33.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "18.0"
+              }
+            }
+          },
+          {
+            "id": "70%",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "4.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "4.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "25.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "10.0"
+              }
+            },
+            "vector-content": "70_.svg"
+          },
+          {
+            "id": "Frame 57",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Frame 53",
+              "Frame 56"
+            ],
+            "item-spacing": "16.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "Frame 50",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Frame 49",
+              "Frame 48"
+            ],
+            "item-spacing": "123.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "Frame 53",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "Frame 46",
+              "Frame 52"
+            ],
+            "item-spacing": "111.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "Frame 56",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Lorem ipsum dolor sit amet consectetur. Proin sagittis posuere turpis vulputate ut...",
+              "Frame 55"
+            ],
+            "item-spacing": "4.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "Frame 46",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "Mask group",
+              "Frame 45"
+            ],
+            "item-spacing": "9.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "Frame 52",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "Frame 51",
+              "ant-design:more-outlined"
+            ],
+            "item-spacing": "8.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "Mask group",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "50.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "50.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Ellipse 1",
+              "pexels-photo-1308578 1"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Frame 45",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Adeniyi John",
+              "5 days ago"
+            ],
+            "item-spacing": "1.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "Ellipse 1",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "50.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "50.0"
+              }
+            }
+          },
+          {
+            "id": "pexels-photo-1308578 1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "-9.45318603515625"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "74.9063720703125"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "50.0"
+              }
+            },
+            "image-content": "pexels_photo_1308578_1.jpeg",
+            "scale": "cover"
+          },
+          {
+            "id": "Adeniyi John",
+            "font-weight": "600.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Adeniyi John",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "16.0",
+            "line-height": "1.218999981880188",
+            "typeface": "Montserrat"
+          },
+          {
+            "id": "5 days ago",
+            "font-weight": "500.0",
+            "color": {
+              "alpha": "0.6980392156862745",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "5 days ago",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "12.0",
+            "line-height": "1.219000021616618",
+            "typeface": "Montserrat"
+          },
+          {
+            "id": "Frame 51",
+            "border-radius": "50.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "80.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "30.0"
+              }
+            },
+            "stroke-width": "1.0",
+            "stroke-color": {
+              "alpha": "0.2980392156862745",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "arrangement": "row",
+            "children": [
+              "cil:user-follow",
+              "Follow"
+            ],
+            "item-spacing": "6.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "ant-design:more-outlined",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "25.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "25.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Vector1"
+            ]
+          },
+          {
+            "id": "cil:user-follow",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "16.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "16.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Vector"
+            ]
+          },
+          {
+            "id": "Follow",
+            "font-weight": "600.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Follow",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "12.0",
+            "line-height": "1.6666667175292968",
+            "typeface": "Montserrat"
+          },
+          {
+            "id": "Vector",
+            "margin": {
+              "left": "0.75",
+              "top": "0.5",
+              "right": "0.75",
+              "bottom": "0.5"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vector.svg"
+          },
+          {
+            "id": "Vector1",
+            "margin": {
+              "left": "11.1328125",
+              "top": "4.2724609375",
+              "right": "11.1328125",
+              "bottom": "4.3212890625"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vector1.svg"
+          },
+          {
+            "id": "Lorem ipsum dolor sit amet consectetur. Proin sagittis posuere turpis vulputate ut...",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "334.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "44.0"
+              }
+            },
+            "font-weight": "600.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Lorem ipsum dolor sit amet consectetur. Proin sagittis posuere turpis vulputate ut...",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "line-height": "1.4285714721679688",
+            "typeface": "Montserrat"
+          },
+          {
+            "id": "Frame 55",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "Group 40",
+              "Shared by Sayan, Mayank and 63 others"
+            ],
+            "item-spacing": "8.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "Group 40",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "39.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "23.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Mask group1",
+              "Mask group2"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Shared by Sayan, Mayank and 63 others",
+            "font-weight": "300.0",
+            "color": {
+              "alpha": "0.8",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Shared by Sayan, Mayank and 63 others",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "12.0",
+            "line-height": "1.6666667175292968",
+            "typeface": "Montserrat"
+          },
+          {
+            "id": "Mask group1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "16.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "23.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "23.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Ellipse 3",
+              "pexels-photo-2085739 1"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Mask group2",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "23.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "23.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Ellipse 2",
+              "pexels-photo-206329 1"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Ellipse 3",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "23.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "23.0"
+              }
+            }
+          },
+          {
+            "id": "pexels-photo-2085739 1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "-1.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "-1.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "26.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "39.0"
+              }
+            },
+            "image-content": "pexels_photo_2085739_1.jpeg",
+            "scale": "cover"
+          },
+          {
+            "id": "Ellipse 2",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "23.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "23.0"
+              }
+            }
+          },
+          {
+            "id": "pexels-photo-206329 1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "-1.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "-1.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "25.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "37.625"
+              }
+            },
+            "image-content": "pexels_photo_206329_1.jpeg",
+            "scale": "cover"
+          },
+          {
+            "id": "Frame 49",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Frame 44",
+              "Frame 43"
+            ],
+            "item-spacing": "16.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "Frame 48",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "mdi-light:share",
+              "iconamoon:comment-thin1",
+              "carbon:favorite1"
+            ],
+            "item-spacing": "14.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "Frame 44",
+            "border-radius": "50.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "70.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "30.0"
+              }
+            },
+            "stroke-width": "1.0",
+            "stroke-color": {
+              "alpha": "0.2980392156862745",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "arrangement": "row",
+            "children": [
+              "carbon:favorite",
+              "34.5k"
+            ],
+            "item-spacing": "4.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "Frame 43",
+            "border-radius": "50.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "70.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "30.0"
+              }
+            },
+            "stroke-width": "1.0",
+            "stroke-color": {
+              "alpha": "0.2980392156862745",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "arrangement": "row",
+            "children": [
+              "iconamoon:comment-thin",
+              "345"
+            ],
+            "item-spacing": "4.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "carbon:favorite",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "16.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "16.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Vector2"
+            ]
+          },
+          {
+            "id": "34.5k",
+            "font-weight": "600.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "34.5k",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "12.0",
+            "line-height": "1.6666667175292968",
+            "typeface": "Montserrat"
+          },
+          {
+            "id": "Vector2",
+            "margin": {
+              "left": "0.9986572265625",
+              "top": "2.0",
+              "right": "0.998626708984375",
+              "bottom": "1.5"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vector2.svg"
+          },
+          {
+            "id": "iconamoon:comment-thin",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "16.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "16.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Vector3"
+            ]
+          },
+          {
+            "id": "345",
+            "font-weight": "600.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "345",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "12.0",
+            "line-height": "1.6666667175292968",
+            "typeface": "Montserrat"
+          },
+          {
+            "id": "Vector3",
+            "margin": "2.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vector3.svg"
+          },
+          {
+            "id": "mdi-light:share",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "25.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "25.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Vector4"
+            ]
+          },
+          {
+            "id": "iconamoon:comment-thin1",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "25.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "25.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Vector5"
+            ]
+          },
+          {
+            "id": "carbon:favorite1",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "25.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "25.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Vector6"
+            ]
+          },
+          {
+            "id": "Vector4",
+            "margin": {
+              "left": "3.125",
+              "top": "5.208251953125",
+              "right": "3.125",
+              "bottom": "4.166748046875"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vector4.svg"
+          },
+          {
+            "id": "Vector5",
+            "margin": "3.125",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vector5.svg"
+          },
+          {
+            "id": "Vector6",
+            "margin": {
+              "left": "1.56036376953125",
+              "top": "3.125",
+              "right": "1.5604248046875",
+              "bottom": "2.34375"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vector6.svg"
+          },
+          {
+            "id": "Frame 59",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "Arrow 1",
+              "Reels"
+            ],
+            "item-spacing": "24.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "ph:instagram-logo",
+            "padding": "2.0",
+            "border-radius": "50.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              }
+            },
+            "stroke-width": "1.0",
+            "stroke-color": {
+              "alpha": "0.4980392156862745",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "arrangement": "row",
+            "children": [
+              "Vector7"
+            ],
+            "item-spacing": "10.0"
+          },
+          {
+            "id": "Arrow 1",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "25.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "0.0"
+              }
+            }
+          },
+          {
+            "id": "Reels",
+            "font-weight": "600.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Reels",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "20.0",
+            "line-height": "1.5",
+            "typeface": "Montserrat"
+          },
+          {
+            "id": "Vector7",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "20.3125"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "20.3125"
+              }
+            },
+            "vector-content": "vector7.svg"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "Component 10",
+      "size": {
+        "width": 414.0,
+        "height": 848.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

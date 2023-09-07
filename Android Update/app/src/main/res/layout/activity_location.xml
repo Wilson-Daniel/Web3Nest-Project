@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.LocationActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/img_29" />
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat"
+                    android:text="Location"
+                    android:textColor="#031632"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+                    app:layout_constraintStart_toEndOf="@+id/imageView2"
+                    app:layout_constraintTop_toTopOf="@+id/imageView2" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/montserrat"
+                android:text="Fill the form below to add your Address to your account " />
+
+            <EditText
+                android:id="@+id/textView34"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/img_30"
+                android:fontFamily="@font/montserrat"
+                android:gravity="center_vertical"
+                android:hint="Phone Number"
+                android:padding="10dp"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/textView36"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/img_30"
+                android:fontFamily="@font/montserrat"
+                android:gravity="center_vertical"
+                android:hint="Email Address (Optional)"
+                android:padding="10dp"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/img_30"
+                android:fontFamily="@font/montserrat"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:text="Address 1" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/img_30"
+                android:fontFamily="@font/montserrat"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:text="State" />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/img_30"
+                android:fontFamily="@font/montserrat"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:text="Town/City" />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/img_30"
+                android:fontFamily="@font/montserrat"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:text="Pincode" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/img_30"
+                android:fontFamily="@font/montserrat"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:text="Address 2 (Optional)" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/img_30"
+                android:fontFamily="@font/montserrat"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:text="Pincode" />
+
+            <ImageView
+                android:id="@+id/imageView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:srcCompat="@drawable/img_31" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

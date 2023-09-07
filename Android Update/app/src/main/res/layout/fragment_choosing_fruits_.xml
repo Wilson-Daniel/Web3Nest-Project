@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".FRAGMENTS.ChoosingFruits_Fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/twoX_TV_timer"
+        android:layout_width="314dp"
+        android:layout_height="77dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:text="02 : 05 : 67"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textSize="56sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/meta10_textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="Bet for fruits?"
+
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/timmm" />
+
+    <TextView
+        android:id="@+id/texew17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="5dp"
+        android:paddingRight="15dp"
+        android:paddingBottom="5dp"
+        android:text="Fruits"
+        android:textSize="26sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.126"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/meta10_textView13" />
+
+    <TextView
+        android:id="@+id/meta2X_IV_fruit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="5dp"
+        android:paddingRight="15dp"
+        android:paddingBottom="5dp"
+        android:text="Fruits"
+        android:textSize="26sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.126"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/texew17" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="5dp"
+        android:paddingRight="15dp"
+        android:paddingBottom="5dp"
+        android:text="Fruits"
+        android:textSize="26sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.126"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/texew17" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="136dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="5dp"
+        android:paddingRight="15dp"
+        android:paddingBottom="5dp"
+        android:text="Fruits"
+        android:textSize="26sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.126"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/texew17" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="5dp"
+        android:paddingRight="15dp"
+        android:paddingBottom="5dp"
+        android:text="Fruits"
+        android:textSize="26sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.126"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/texew17" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
