@@ -4,12 +4,14 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
+import android.app.Dialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -49,79 +51,74 @@ public class MetaForestActivity extends AppCompatActivity {
         meta_flower.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MetaForestActivity.this, "Played for Flower", Toast.LENGTH_SHORT).show();
+                dialogPopUp();
             }
         });
         meta_fruit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MetaForestActivity.this, "Played for Fruit", Toast.LENGTH_SHORT).show();
+                dialogPopUp();
             }
         });
-        meta_flower.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(MetaForestActivity.this, "Played for Flower", Toast.LENGTH_SHORT).show();
-            }
-        });
+
         meta_amla.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MetaForestActivity.this, "Played for Amla", Toast.LENGTH_SHORT).show();
+                dialogPopUp();
             }
         });
         meta_orange.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MetaForestActivity.this, "Played for Orange", Toast.LENGTH_SHORT).show();
+                dialogPopUp();
             }
         });
         meta_guava.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MetaForestActivity.this, "Played for Guava", Toast.LENGTH_SHORT).show();
+                dialogPopUp();
             }
         });
         meta_papaya.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MetaForestActivity.this, "Played for Papaya", Toast.LENGTH_SHORT).show();
+                dialogPopUp();
             }
         });
         meta_rose.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MetaForestActivity.this, "Played for Rose", Toast.LENGTH_SHORT).show();
+                dialogPopUp();
             }
         });
         meta_meriGold.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MetaForestActivity.this, "Played for MeriGold", Toast.LENGTH_SHORT).show();
+                dialogPopUp();
             }
         });
         meta_sunflower.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MetaForestActivity.this, "Played for Sunflower", Toast.LENGTH_SHORT).show();
+                dialogPopUp();
             }
         });
         meta_lily.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MetaForestActivity.this, "Played for Lily", Toast.LENGTH_SHORT).show();
+                dialogPopUp();
             }
         });
         meta_jasmin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MetaForestActivity.this, "Played for Jasmin", Toast.LENGTH_SHORT).show();
+                dialogPopUp();
             }
         });
         meta_sarifa.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MetaForestActivity.this, "Played for Sarifa", Toast.LENGTH_SHORT).show();
+                dialogPopUp();
             }
         });
 
@@ -156,4 +153,46 @@ public class MetaForestActivity extends AppCompatActivity {
         metaForest_Globe_Rotation.setRepeatCount(Animation.INFINITE);
         metaForest_Globe_imageView.setAnimation(metaForest_Globe_Rotation);
     }
+    public void dialogPopUp(){
+        Dialog dialog = new Dialog(MetaForestActivity.this);
+        dialog.setContentView(R.layout.metaforest_custom_dialogbox);
+        Button closeBT = dialog.findViewById(R.id.metaforest_dialog_close);
+        Button confirmBT = dialog.findViewById(R.id.metaforest_dialog_confirm);
+        TextView plusTV = dialog.findViewById(R.id.metaforest_dialog_plus);
+        TextView minusTV = dialog.findViewById(R.id.metaforest_dialog_minus);
+        TextView numberTV = dialog.findViewById(R.id.metaforest_dialog_number);
+        closeBT.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                dialog.dismiss();
+            }
+        });
+        confirmBT.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(MetaForestActivity.this, "Confirm", Toast.LENGTH_SHORT).show();
+                dialog.dismiss();
+            }
+        });
+        plusTV.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                int number = Integer.parseInt(numberTV.getText().toString());
+                number++;
+                numberTV.setText(String.valueOf(number));
+            }
+        });
+        minusTV.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                int number = Integer.parseInt(numberTV.getText().toString());
+                if(number>0){
+                    number--;
+                    numberTV.setText(String.valueOf(number));
+                }
+            }
+        });
+        dialog.show();
+    }
+
 }
